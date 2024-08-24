@@ -16,5 +16,14 @@ namespace User_Info_Collection_System_CRUD_
         {
             InitializeComponent();
         }
+
+        private void lblX_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure want to close App?","Confirmation Message",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            
+        }
     }
 }
