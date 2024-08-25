@@ -1,0 +1,12 @@
+﻿CREATE TABLE users(
+id INT PRIMARY KEY IDENTITY(1,1),
+full_name VARCHAR(MAX) NULL,
+gender VARCHAR(MAX) NULL,
+contact VARCHAR(MAX) NULL,
+email VARCHAR(MAX) NULL,
+birth_date VARCHAR(MAX) NULL,
+date_inserted VARCHAR(MAX) NULL,
+date_updated VARCHAR(MAX) NULL
+);
+
+SELECT * FROM users;
